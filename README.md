@@ -5,13 +5,13 @@ An image that lets us build android apps with docker using gitlab-ci
 ## Build command
 
 ```bash
-docker build -t ekreative/android .
+docker build -t smartaid/android .
 ```
 
 ## Build an app
 
 ```bash
-docker run -ti --rm --volume=$(pwd):/srv -w /srv ekreative/android ./gradlew assembleRelease
+docker run -ti --rm --volume=$(pwd):/srv -w /srv smartaid/android ./gradlew assembleRelease
 ```
 
 ## Credit

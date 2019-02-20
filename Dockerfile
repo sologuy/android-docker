@@ -43,7 +43,7 @@ ENV SHELL /bin/bash
 VOLUME /root/.gradle
 
 # Install upload-apk helper
-RUN npm install -g xcode-build-tools
+# RUN npm install -g xcode-build-tools
 
 RUN useradd -u 1001 sos
 
